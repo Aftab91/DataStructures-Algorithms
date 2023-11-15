@@ -1,6 +1,8 @@
 package Arrays.medium_problems;
 
 public class MaximumPoints_you_can_Obtain_from_Cards {
+	
+	//maxScore
     public static int maxScore(int[] cardPoints, int k) {
         int n = cardPoints.length, totalSum = 0, minSubarray = 0;
 
